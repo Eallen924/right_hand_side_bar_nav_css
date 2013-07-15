@@ -1,10 +1,38 @@
-.container {
-  /*
-    If you have a block-level element of a certain width, margin: 0 auto;
-    will how you center it inside its parent container.
 
-    See: http://bluerobot.com/web/css/center1.html
+ /*
+Master
   */
+
+.container {
   margin: 0 auto;  
   width: 720px;
+}
+
+ /*
+Header
+  */
+ /*
+Sidebar
+  */
+
+  nav {
+    float: right;
+  }
+
+ /*
+Content
+  */
+
+  .content {
+    float: left;
+  }
+
+ /*
+Footer
+  */
+
+.footer {
+  clear: both;
+  border-top: 1px dotted #222;
+  padding: 20px 0px;
 }
