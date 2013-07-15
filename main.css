@@ -1,7 +1,7 @@
 
  /*
 Master
-  */
+*/
 
 .container {
   margin: 0 auto;  
@@ -10,29 +10,43 @@ Master
 
  /*
 Header
-  */
+*/
+
  /*
 Sidebar
-  */
+*/
 
-  nav {
-    float: right;
-  }
+nav {
+  float: right;
+  width: 120px;
+}
 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 0px 0px 20px;
+}
  /*
 Content
-  */
+*/
 
-  .content {
-    float: left;
-  }
+.content {
+  border-right: 1px dotted #222;
+  float: left;
+  padding-right: 20px;
+  width: 579px;
+}
+
+.content h2 {
+  margin: 0;
+}
 
  /*
 Footer
-  */
+*/
 
 .footer {
-  clear: both;
   border-top: 1px dotted #222;
+  clear: both;
   padding: 20px 0px;
 }
